@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 400px;
+  max-width: 95%;
+  background-color: #2f3237;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem 2rem;
+}
+
+.container-body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+.container-body h2 {
+  color: #fff;
+}
+
+.container-body input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 9px;
+  outline: none;
+  border: none;
+  background-color: #4b5058;
+  color: #fff;
+}
+
+.container-body input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.container-body input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.container-body input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.container-body input::placeholder {
+  color: #fff;
+}
+
+.container-body-submit {
+  background-color: #a8d5e1;
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border-radius: 9px;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.container-body-social {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  border: none;
+  border-radius: 9px;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+
+.container-body-social img {
+  width: 30px;
+}
+
+.container-body-social span {
+  display: inline-block;
+  margin-left: 9px;
+}
+
+.container-footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 9px;
+  padding: 0.75rem 1rem;
+  margin-top: 6rem;
+  background-color: #4b5058;
+}
+
+.container-footer img {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
